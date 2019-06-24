@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0;
+    padding: 0px;
+    width: 960px;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/papyrus.png")
+}
+header {
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    display: block;
+    position: relative;
+    height: 78px;
+}
+.name {
+    background-color: #4aaaa5;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 20px 20px;
+    display: inline-block;
+    margin-top: 0px;
+}
+header a {
+    margin-left: 20px;
+}
+.navigation {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    padding: 30px 5px 20px 0px;
+}
+.navborder {
+    border-right: 1px solid #cccccc;
+    margin-right: -16px;
+    padding-right: 8px;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    border-bottom: 2.8px solid #cccccc;
+    padding-bottom: 10px;
+    margin-top: 3px;
+}
+.content {
+    background-color:  #ffffff;
+    border-color: #dddddd;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    margin-top: 20px;
+    height: 690px;
+}
+.image1, .image2, .image3, .image4, .image5 {
+    Height: 170px;
+    width: 240px;
+    margin-right: 50px;
+    margin-bottom: 80px;
+    position: relative;
+}
+.image1, span {
+    position: absolute;
+    left: 340px;
+    top: 197.833px;
+    display: block;
+}
+.image2, span {
+    position: absolute;
+    left: 640px;
+    top: 200px;
+    display: block;
+}
+.image3, span {
+    position: absolute;
+    left: 340px;
+    top: 400px;
+    display: block;
+}
+.image4, span {
+    position: absolute;
+    left: 640px;
+    top: 400px;
+    display: block;
+}
+.image5, span {
+    position: absolute;
+    left: 340px;
+    top: 600px;
+    display: block;
+}
+.textover1 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 310px;
+    right: 659px;
+    left: 340px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.textover2 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 310px;
+    right: 359px;
+    left: 640px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.textover3 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 510px;
+    right: 659px;
+    left: 340px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.textover4 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 510px;
+    right: 359px;
+    left: 640px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.textover5 {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    top: 710px;
+    right: 659px;
+    left: 340px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .aboutme {
+      line-height: 2;
+  }
+.aboutme img {
+    float: left;
+    margin-right: 20px;
+}
+form label{
+    line-height: 2;
+}
+form #name input {
+    padding-right: 640px;
+}
+form #email input {
+    padding-right: 640px;
+}
+form #submit input {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 8px;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-color: #4aaaa5;
+}
+footer {
+    height: 50px;
+    margin-top: 50px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #666666;
+    color: #cccccc;
+    text-transform: capitalize;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+}
+footer p {
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+a:hover {
+    color: rgb(0, 60, 255);
+}
+a:visited {
+    color: green;
+}
+a:link {
+    color: green;
+}
+a:active {
+    color: yellow;
+}
+form #submit input:hover {
+    color: rgb(0, 60, 255);
+}
+form #submit input:visited {
+    color: green;
+}
+form #submit input:link {
+    color: green;
+}
+form #submit input:active {
+    color: yellow;
+}
